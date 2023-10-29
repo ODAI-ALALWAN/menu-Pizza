@@ -1,0 +1,10 @@
+
+# dependencies
+node_modules/
+.vscode/
+
+# اتجاهل ملفات اللابتوب
+*.log
+*.bak
+*.tmp
+.DS_Store
