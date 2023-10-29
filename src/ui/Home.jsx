@@ -13,7 +13,7 @@ function Home() {
 
   return (
     <>
-    <div className='flex justify-center items-center contrast-50 brightness-50 z-0 ' >
+    <div className='flex justify-center items-center contrast-50 brightness-50 z-0' >
       <div>
       <img src={pizza1} alt={pizza1} />
       <img src={pizza9} alt={pizza9} /> 
@@ -23,13 +23,12 @@ function Home() {
       <img src={pizza14} alt={pizza14} /> 
       </div>
       
-     
     </div>
 
 
 
-    <div className="my-10 px-4 text-center sm:my-16 z-10 absolute inset-20 ">
-      <h1 className="mb-8  text-xl font-semibold md:text-3xl sm:text-xs ">
+    <div className="my-10 px-4 text-center sm:my-16 z-10 absolute inset-20 sm:absolute top-[30%] ">
+      <h1 className="mb-8  text-xl font-semibold md:text-3xl sm:text-xs text-slate-50 ">
         The best pizza.
         <br />
         <span className="text-yellow-500">

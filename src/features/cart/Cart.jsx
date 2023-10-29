@@ -4,7 +4,7 @@ import Button from '../../ui/Button';
 import CartItem from './CartItem';
 import { useDispatch, useSelector } from 'react-redux';
 import EmptyCart from './EmptyCart';
-import CartOverview from './CartOverview'
+
  
 import { clearItem} from './cartSlice'
 
