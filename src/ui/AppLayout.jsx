@@ -1,5 +1,5 @@
 
-import CartOverview from '../features/cart/CartOverview';
+
 import Header from './Header';
 import Loader from './Loader';
 
@@ -11,7 +11,7 @@ function AppLayout() {
 
   return (
     <>
-    <div className="grid h-screen grid-rows-[auto_1fr_auto]">
+    <div className="grid grid-rows-[auto_[600px]_auto]">
       {isLoading && <Loader />}
       <Header />
       <div className="overflow-y-scroll">
@@ -19,7 +19,6 @@ function AppLayout() {
         <Outlet />
         </main>
       </div>
-      <CartOverview/>
     </div>
   </>
   );
