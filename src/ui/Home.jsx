@@ -13,21 +13,16 @@ function Home() {
 
   return (
     <>
-    <div className='flex justify-center items-center contrast-50 brightness-50 z-0' >
-      <div>
+    <div className='flex justify-center items-center' >
+      <div className='contrast-50 brightness-50 z-0' >
       <img src={pizza1} alt={pizza1} />
       <img src={pizza9} alt={pizza9} /> 
       </div>
-      <div>
+      <div className='contrast-50 brightness-50 z-0'>
       <img src={pizza6} alt={pizza6} /> 
       <img src={pizza14} alt={pizza14} /> 
       </div>
-      
-    </div>
-
-
-
-    <div className="my-10 px-4 text-center sm:my-16 z-10 absolute inset-20 sm:absolute top-[30%] ">
+      <div className="my-10 px-4 text-center sm:my-16 z-10 absolute inset-20 sm:absolute top-[10%] ">
       <h1 className="mb-8  text-xl font-semibold md:text-3xl sm:text-xs text-slate-50 ">
         The best pizza.
         <br />
@@ -36,12 +31,17 @@ function Home() {
         </span>
       </h1>
 
-    {userName === '' ?  ( <CreateUser /> ) 
-    : (
-      <Button to='/menu' type='primary'> Continue ordering , {userName} </Button>
-    ) }
-    </div>
+        {userName === '' ?  ( <CreateUser /> ) 
+        : (
+          <Button to='/menu' type='primary'> Continue ordering , {userName} </Button>
+        ) }
+       </div>
     
+      </div>
+
+
+
+
     
     
     </>
